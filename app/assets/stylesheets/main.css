@@ -2160,7 +2160,7 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
-/* Wrapper */
+/*  */
 
 	.wrapper {
 		background: #fff;
@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url('header.png');
+		background-image: url('header.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
