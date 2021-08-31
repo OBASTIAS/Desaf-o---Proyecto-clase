@@ -6,7 +6,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-	<%= javascript_include_tag 'application' %>	    
+	   
   </head>
 	
   	<body class="no-sidebar">
@@ -28,7 +28,7 @@
     	<div class="wrapper">
 			<div class="container">
 				<%= yield%>
-			</div>
+				
 		</div>
   
     	<!-- Footer -->
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 	</body>
-	
+	<%= javascript_include_tag 'application' %>	 
   
 
 </html>
